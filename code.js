@@ -10,4 +10,9 @@ function sayHello(name) {
     }
     return (`Hello, ${name}!`)
 }
+function isFive(num){
+   if (parseFloat(num) === 5){
+       return true
+   }
+}
 //
