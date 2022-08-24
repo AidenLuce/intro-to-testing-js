@@ -15,4 +15,12 @@ function isFive(num){
        return true
    }
 }
+
+function isEven(num) {
+    if (parseFloat(num) % 2 || parseFloat(num) === 0){
+        return true;
+    }else if (num === undefined){
+        return  true
+    }
+}
 //

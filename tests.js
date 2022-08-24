@@ -42,5 +42,37 @@ describe('sayHello',function() {
 describe('isFive',function(){
     it("Should return 5", function(){
         expect(isFive('5')).toBe(true);
-    })
-})
+    });
+});
+describe('isEven', function(){
+    it ('should return an even value', function(){
+        expect(isEven('4')).toBe(true);
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
