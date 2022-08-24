@@ -32,4 +32,11 @@ describe('sayHello',function() {
     it('should return: Hello (name)!', function () {
         expect(sayHello('')).toBe(`Hello, ${name}!`)
     });
+    it('should return: Hello, World!', function () {
+        expect(expect(sayHello(true)).toBe("Hello, World!"))
+    });
+    it('should return: Hello, World!', function () {
+        expect(expect(sayHello(false)).toBe("Hello, World!"))
+    });
+
 });
